@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #e0e0e0;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    padding: 20px;
+    border: 2px solid black;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+header {
+    width: 100%;
+}
+
+header h1 {
+    font-size: 54px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+form {
+    display: flex;
+    background-color: #fff;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+form#forms input {
+    width: 100%;
+    max-width: 400px;
+    height: 40px;
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+button {
+    background-color: rgb(118, 214, 118);
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    width: 100%;
+    max-width: 100px;
+    cursor: pointer;
+}
+
+.container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.container ul li.feito {
+    text-decoration: line-through;
+}
+
+.container ul li {
+    font-size: 30px;
+    padding-bottom: 10px; /* Espaçamento abaixo do item */
+    border-bottom: 1px solid black; /* Borda inferior */
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.container ul h2 {
+    font-size: 30pt;
+    margin-bottom: 10px;
+}
+
+.tarefas-add {
+    padding: 10px;
+}
